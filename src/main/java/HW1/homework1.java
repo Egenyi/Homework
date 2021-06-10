@@ -1,13 +1,12 @@
 package HW1;
 
 public class homework1 {public static void main(String[] args) {
-
+    // Task 6 (Test Task 2 - Task 5)
     printThreeWords();
     checkSumSign();
     printColor();
     compareNumbers();
 }
-
 //
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -21,7 +20,8 @@ public class homework1 {public static void main(String[] args) {
 
         if (sum >= 0) {
             System.out.println("Сумма положительная");
-        } if (sum < 0) {
+        }
+        if (sum < 0) {
             System.out.println("Сумма отрицательная");
         }
     }
@@ -37,7 +37,6 @@ public class homework1 {public static void main(String[] args) {
             System.out.println("Зеленый");
         }
     }
-
 //
     public static void compareNumbers() {
         int a = 8, b = 17;
@@ -49,6 +48,5 @@ public class homework1 {public static void main(String[] args) {
         }
     }
 }
-
 
 
